@@ -4,7 +4,7 @@
 
 **:clock9: This is a simple analog clock.**
 
-## How it works ?
+## How it works?
 
 HTML
 
@@ -61,7 +61,7 @@ Second hand rotates.
 
 Similar process are applied to the minute hand and the hour hand.
 
-## What i have learned
+## What i have learned?
 
 - I have learned transition-timing-function property.
 
