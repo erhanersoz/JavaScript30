@@ -4,7 +4,7 @@
 
 **:dart: Example of the array methods**
 
-## How it works ?
+## How it works?
 
 HTML
 
@@ -28,7 +28,7 @@ const totalYearsLived = inventors.reduce((currValue, {passed, year}) => (currVal
 console.log(totalYearsLived);
 ```
 
-## What i have learned
+## What i have learned?
 
 - I have learned Array.prototype.sort(), Array.prototype.reduce(), console.table() methods.
 
