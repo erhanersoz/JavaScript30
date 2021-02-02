@@ -8,7 +8,7 @@
 >
 > Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 
-## About
+## Exercises
 
 | Day | Name | Detail |
 | --- | ---- | ------ |
