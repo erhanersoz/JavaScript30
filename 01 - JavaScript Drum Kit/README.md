@@ -20,7 +20,7 @@
 
 > As seen in the table above, a sound is defined for each of the keys A, S, D, F, G, H, J, K, L. That sound is heard when the key is pressed.
 
-## How it works ?
+## How it works?
 
 HTML
 
@@ -72,7 +72,7 @@ Audio element and key element are select by e.keyCode (code of the key pressed)
 
 Key animates.
 
-## What i have learned
+## What i have learned?
 
 - I have learned to play audio.
 - I have learned transitionend event. But i haven't used it.
