@@ -4,7 +4,7 @@
 
 **Example of transition event**
 
-## How it works ?
+## How it works?
 
 HTML
 
@@ -55,7 +55,7 @@ panels.forEach(panel => panel.addEventListener("transitionend",toggleActive));
 ```
 toggleActive will be triggered when transition of panel is end. 
 
-## What i have learned
+## What i have learned?
 
 - I have learned classList.toggle()
 - I have learned transitionend event.
