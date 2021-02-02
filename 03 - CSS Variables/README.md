@@ -4,7 +4,7 @@
 
 **:art: Example of updating the css variables values**
 
-## How it works ?
+## How it works?
 
 HTML
 
@@ -63,7 +63,7 @@ handleUpdate updates value of property : style.setProperty(propertyName, value)
 handleUpdate will be triggered when there is a change in inputs.
 
 
-## What i have learned
+## What i have learned?
 
 - I have learned setProperty function
 
