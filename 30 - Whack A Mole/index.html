@@ -9,8 +9,10 @@
 <body>
 
   <h1>Whack-a-mole! <span class="score">0</span></h1>
-  <button onClick="startGame()">Start!</button>
 
+  <div class="btnContainer">
+    <input type="button" class="button" onClick="startGame()" value="Start">
+  </div>
   <div class="game">
     <div class="hole hole1">
       <div class="mole"></div>
@@ -81,6 +83,33 @@
   }
 
   moles.forEach(mole => mole.addEventListener("click", bonk));
+
+  const body = document.body;
+
+  const hammer = document.createElement("div");
+  hammer.classList.add("hammer");
+  body.appendChild(hammer);
+
+  body.addEventListener("mousemove", (e) => {
+    hammer.style.left = e.pageX - 5 +"px";
+    hammer.style.top = e.pageY - 25 +"px";
+  });
+
+  body.addEventListener("mouseleave", () => {
+    hammer.style.display = "none";
+  });
+
+  body.addEventListener("mouseenter", () => {
+    hammer.style.display = "block";
+  });
+
+  body.addEventListener("click", () => {
+    hammer.classList.add("kick");
+  });
+
+  hammer.addEventListener("transitionend", () => {
+    hammer.classList.remove("kick");
+  });
 
 </script>
 </body>

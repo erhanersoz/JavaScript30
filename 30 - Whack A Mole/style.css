@@ -2,6 +2,8 @@ html {
   box-sizing: border-box;
   font-size: 10px;
   background: #ffc600;
+  cursor: none;
+  user-select: none;
 }
 
 *, *:before, *:after {
@@ -66,4 +68,29 @@ h1 {
 
 .hole.up .mole {
   top: 0;
+}
+
+.btnContainer {
+  display: flex;
+}
+
+.button {
+  margin: auto;
+  padding: 10px 20px;
+}
+
+.hammer {
+  pointer-events: none;
+  background: url('hammer.svg') bottom center no-repeat;
+  background-size: contain;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  z-index: 5;
+  transition: transform 0.1s;
+  transform: rotate(25deg);
+}
+
+.kick {
+  transform: rotate(-45deg);
 }
