@@ -103,7 +103,12 @@
 
   function handleCheck(e) {
     let inBetween = false;
-    if (e.shiftKey && this.checked && lastChecked.checked && lastChecked !== undefined) {
+    if (
+      e.shiftKey && // if the shiftKey is true
+      this.checked && // if the clicked checkbox is true
+      lastChecked.checked && // if the last clicked checkbox is true
+      this !== lastChecked // if the clicked checkbox is not the last clicked checkbox
+      ) {
 
       checkboxes.forEach(checkbox => {
         if (checkbox === this || checkbox === lastChecked) {
