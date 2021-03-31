@@ -80,7 +80,7 @@ function highlightLink() {
   highlight.style.display = "block";
 }
 ```
-The ***highlightLink()*** method takes the width, height and coordinates of the link. Then updates width, height and coordinates of the highlight.
+The ***highlightLink()*** method gets the width, height and coordinates of the link. Then it updates width, height and coordinates of the highlight.
 
 
 ## What i have learned?

@@ -27,7 +27,7 @@ window.addEventListener("keyup", e => {
 ```
 When a key is pressed, the key is added to the ***pressed***.
 
-It removes from the head of the ***pressed*** 2 times.
+It removes from the head of the ***pressed*** 2 times. **
 
 if the ***pressed*** includes the secretCode ***cornify_add()*** runs.
 

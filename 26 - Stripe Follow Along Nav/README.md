@@ -151,7 +151,7 @@ Defination
 ```js
 triggers.forEach(trigger => trigger.addEventListener("mouseenter", handleEnter));
 ```
-The `handleEnter` method triggers when mouse enter each nav element.
+The `handleEnter` method will be triggered when mouse enter each nav element.
 
 <br/>
 
@@ -159,7 +159,7 @@ The `handleEnter` method triggers when mouse enter each nav element.
 triggers.forEach(trigger => trigger.addEventListener("mouseleave", handleLeave));
 ```
 
-The `handleLeave` method triggers when mouse leave each nav element.
+The `handleLeave` method will be triggered when mouse leave each nav element.
 
 <br/>
 

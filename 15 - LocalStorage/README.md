@@ -55,7 +55,7 @@ Defination
 ```js
 let items = JSON.parse(localStorage.getItem('items')) || [];
 ```
-***items*** gets items from local storage
+***items*** is items from local storage
 
 ```js
 function populateList(plates =[], platesList){

@@ -46,12 +46,12 @@ const comments = [
 ```js
 const comment = comments.find(comment => (comment.id === 823423));
 ```
-comment is the comment with the ID of 823423
+The comment is `{ text: 'Super good', id: 823423 }`
 
 ```js
 const index = comments.findIndex(comment => (comment.id === 823423));
 ```
-index is index of the comment with the ID of 823423
+The index is `1`
 
 ```js
 const newComments = [
@@ -59,7 +59,12 @@ const newComments = [
   ...comments.slice(index+1)
 ];
 ```
-The comment with the ID of 823423 has been deleted
+The newComments = `[
+  { text: 'Love this!', id: 523423 },
+  { text: 'You are the best', id: 2039842 },
+  { text: 'Ramen is my fav food ever', id: 123523 },
+  { text: 'Nice Nice Nice!', id: 542328 }
+]`
 
 ## What i have learned?
 

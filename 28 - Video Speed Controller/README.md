@@ -60,7 +60,7 @@ Defination
 ```js
 speed.addEventListener("mousemove", handleMove);
 ```
-the `handleMove` method triggers when mouse move on speed bar.
+the `handleMove` method will be triggered when mouse move on speed bar.
 
 <br/>
 

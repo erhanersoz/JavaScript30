@@ -55,7 +55,7 @@ function updateClock() {
 
 Create a object from Date.
 
-The degree of second hand is calculates from seconds with ((seconds / 60) * 360). And adds 90 degrees. Because the elements looks like -90 degrees by default.
+The degree of second hand is calculates from seconds with ((seconds / 60) * 360) and adds 90 degrees, because the degree of elements are -90 by default.
 
 Second hand rotates.
 

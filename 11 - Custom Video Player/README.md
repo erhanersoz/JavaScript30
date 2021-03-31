@@ -80,7 +80,7 @@ function skip(){
   video.currentTime += parseFloat(this.dataset.skip);
 }
 ```
-The skip method skips the video as much as value of clicked buttons.
+The skip method skips the video as much as value of buttons clicked.
 
 
 ```js
@@ -113,7 +113,7 @@ The scrub method updates video.currentTime according width of the progress bar w
 
 ## What i have learned?
 
-- I have learned to manipulating video.
+- I have learned to manage video.
 
 
 ## Notes

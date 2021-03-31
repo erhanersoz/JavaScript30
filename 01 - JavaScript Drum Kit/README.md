@@ -72,7 +72,7 @@ Audio element and key element are select by e.keyCode (code of the key pressed)
 
 Key animates.
 
-## What i have learned?
+## What I have learned?
 
 - I have learned to play audio.
 - I have learned transitionend event. But i haven't used it.

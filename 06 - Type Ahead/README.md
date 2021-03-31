@@ -74,7 +74,7 @@ function displayMatches(){
   suggestions.innerHTML = html;
 }
 ```
-displayMatches adds filtered cities by the highlighted search word to suggestions.
+displayMatches filters the cities based on the searched word and highlights the searched word.
 
 ```js
 searchInput.addEventListener("change", displayMatches);
@@ -85,7 +85,7 @@ displayMatches will be triggered when searchInput changes.
 
 ## What i have learned?
 
-- I have learned to use replace method with regex
+- I have learned to use replace method with RegExp
 
 ## Notes
 

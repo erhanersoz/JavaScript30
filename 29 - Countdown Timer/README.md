@@ -107,7 +107,7 @@ The `startTimer` method gets dataset.time of element and passes it to `timer` me
 buttons.forEach((button) => button.addEventListener("click", startTimer));
 ```
 
-The `startTimer` method is triggered when buttons are clicked.
+The `startTimer` method will be triggered when buttons are clicked.
 
 <br/>
 

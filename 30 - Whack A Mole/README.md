@@ -165,7 +165,7 @@ The `startGame` method starts the game. The game stops after 10 seconds.
 
   moles.forEach(mole => mole.addEventListener("click", bonk));
 ```
-The `bonk` method is triggered when a `mole` is clicked. The `bonk` method increases the score by 1.
+The `bonk` method will be triggered when a `mole` is clicked. The `bonk` method increases the score by 1.
 
 <br/>
 

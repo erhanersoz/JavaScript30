@@ -37,7 +37,7 @@ function logText(e) {
 ```
 The `Event.stopPropagation()` method of the Event interface prevents further propagation of the current event in the capturing and bubbling phases.
 
-The ***logText()*** method writes only the class name of the topmost clicked div because of the stopPropagation() method.
+The ***logText()*** method writes only the class name of the clicked top div because of the stopPropagation() method.
 
 <br/>
 
@@ -60,7 +60,7 @@ The ***logText()*** method writes only the class name of the topmost clicked div
     once: true
   });
 ```
-It writes "Click!!!" only once, no matter how many times the button is clicked.
+It writes a "Click!!!" only once, regardless of the number of clicks.
 
 
 ## What i have learned?

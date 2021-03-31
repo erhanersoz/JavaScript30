@@ -112,7 +112,7 @@ function redEffect(pixels) {
   return pixels;
 }
 ```
-The ***redEffect()*** method increases the red representing value of the pixels by 100. It decreases the green representing value of the pixels by 50. It reduces the blue representing value of the pixels to half.
+The ***redEffect()*** method increases the red channels of pixels by 100. It decreases the green channels of pixels by 50. It reduces the blue channels of pixels to half.
 
 <br/>
 
@@ -215,7 +215,7 @@ function takePhoto() {
 ```
 The ***HTMLCanvasElement.toDataURL()*** method returns a data-URL containing a representation of the image in the format specified by the type parameter (defaults to png). The returned image is in a resolution of 96 dpi.
 
-The ***takePhoto()*** method plays snap sound. Then adds the snapshot on the canvas to the beginning of the strip. The snapshot is downloadable.
+The ***takePhoto()*** method plays snap sound. Then it adds the snapshot on the canvas to the beginning of the strip. The snapshot is downloadable.
 
 <br/>
 

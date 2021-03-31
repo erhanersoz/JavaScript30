@@ -32,7 +32,7 @@ function toggleOpen(){
   this.classList.toggle("open");
 }
 ```
-If there is no *open* in the classList of this element **toggleOpen** adds *open* to classList else remove the *open* from classList.
+The `toggleOpen` method adds open to classList, if there is no open in the classList of this element otherwise The `toggleOpen` method removes the open from classlist.
 
 ```js
 function toggleActive(e){
@@ -41,7 +41,7 @@ function toggleActive(e){
   }
 }
 ```
-If the ending transition property of this element is 'flex' **toggleActive** adds *open-active* to classList else remove the *open-active* from classList.
+if event propertyName includes flex and if classList of element includes open-active,  the toggleActive method removes the open-active class. Otherwise the toggleActive method adds the open-active class.
 
 ```js
 panels.forEach(panel => panel.addEventListener("click", toggleOpen));

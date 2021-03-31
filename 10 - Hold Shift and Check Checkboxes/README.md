@@ -63,4 +63,10 @@ function handleCheck(e) {
   lastChecked = this;
 }
 ```
-handleCheck method
+The handleCheck method
+
+```js
+checkboxes.forEach(checkbox => checkbox.addEventListener("click", handleCheck));
+```
+The handleCheck method will be triggered when a checkbox is clicked.
+
