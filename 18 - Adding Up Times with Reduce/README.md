@@ -33,7 +33,7 @@ const totalSeconds = timeNodes.map((item)=> {
   return mins * 60 + secs;
 }).reduce((total,vidSeconds) => total + vidSeconds);
 ```
-The ***totalSeconds*** is total time converted to seconds.
+The `totalSeconds` is total time converted to seconds.
 
 ```js
 let leftSeconds = totalSeconds;
@@ -44,7 +44,7 @@ const minutes = Math.floor(leftSeconds / 60);
 leftSeconds = leftSeconds % 60;
 const seconds = leftSeconds;
 ```
-The ***hours***, the ***minutes***, the ***seconds*** are generated from The ***totalSeconds***.
+The `hours`, the `minutes`, the `seconds` are generated from The `totalSeconds`.
  
 
 ```js

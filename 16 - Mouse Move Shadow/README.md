@@ -46,7 +46,7 @@ Defination
 hero.addEventListener("mousemove",shadow);
 ```
 Event
-The ***shadow*** method is triggered when mouse moves
+The `shadow` method is triggered when mouse moves.
 
 
 
@@ -69,12 +69,12 @@ function shadow(e){
   `;
 }
 ```
-The ***shadow*** method adds a shadow based on the mouse position.
+The `shadow` method adds a shadow based on the mouse position.
 
 
 ## What I have learned?
 
-- I have learned the ***contenteditable*** attribute.
+- I have learned the `contenteditable` attribute.
 
 ## Notes
 

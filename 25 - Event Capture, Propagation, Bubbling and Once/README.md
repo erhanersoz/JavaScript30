@@ -37,7 +37,7 @@ function logText(e) {
 ```
 The `Event.stopPropagation()` method of the Event interface prevents further propagation of the current event in the capturing and bubbling phases.
 
-The ***logText()*** method writes only the class name of the clicked top div because of the stopPropagation() method.
+The `logText()` method writes only the class name of the clicked top div because of the `stopPropagation()` method.
 
 <br/>
 
@@ -47,9 +47,9 @@ The ***logText()*** method writes only the class name of the clicked top div bec
     once: true
   }));
 ```
-`capture`: A Boolean indicating that events of this type will be dispatched to the registered listener before being dispatched to any EventTarget beneath it in the DOM tree.
+> `capture`: A Boolean indicating that events of this type will be dispatched to the registered listener before being dispatched to any EventTarget beneath it in the DOM tree.
 
-`once`: A Boolean indicating that the listener should be invoked at most once after being added. If true, the listener would be automatically removed when invoked.
+> `once`: A Boolean indicating that the listener should be invoked at most once after being added. If true, the listener would be automatically removed when invoked.
 
 <br/>
 

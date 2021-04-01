@@ -85,12 +85,12 @@ navigator.geolocation.watchPosition((data) => {
   console.error(err.message);
 });
 ```
-The ***Geolocation.watchPosition()*** method returns a long value representing the newly established callback function to be invoked whenever the device location changes.
+The `Geolocation.watchPosition()` method returns a long value representing the newly established callback function to be invoked whenever the device location changes.
 
 
 ## What I have learned?
 
-- I have learned to use the ***Geolocation.watchPosition()*** method.
+- I have learned to use the `Geolocation.watchPosition()` method.
 
 
 ## Notes

@@ -2,11 +2,11 @@
 
 ![](https://github.com/erhanersoz/JavaScript30/blob/master/Screenshots/demo_19.png?raw=true)
 
-**:video_camera: Webcam, canvas, video, audio**
+``:video_camera: Webcam, canvas, video, audio``
 
 ## How it works?
 
-**HTML**
+``HTML``
 
 ```html
 <div class="photobooth">
@@ -46,7 +46,7 @@
 
 <br/>
 
-**CSS**
+``CSS``
 
 ```css
 .strip {
@@ -70,7 +70,7 @@
 
 <br/>
 
-**JS**
+``JS``
 
 ```js
 const video = document.querySelector('.player');
@@ -96,9 +96,9 @@ function getVideo() {
     });
 }
 ```
-The ***MediaDevices.getUserMedia()*** method With the user's permission through a prompt, turns on a camera and/or a microphone on the system and provides a MediaStream containing a video track and/or an audio track with the input.
+The `MediaDevices.getUserMedia()` method With the user's permission through a prompt, turns on a camera and/or a microphone on the system and provides a MediaStream containing a video track and/or an audio track with the input.
 
-If the ***getVideo()*** method can access the camera, it adds the stream to the video element.
+If the `getVideo()` method can access the camera, it adds the stream to the video element.
 
 <br/>
 
@@ -107,12 +107,12 @@ function redEffect(pixels) {
   for (let i = 0; i < pixels.data.length; i += 4) {
     pixels.data[i + 0] = pixels.data[i + 0] + 100; // RED
     pixels.data[i + 1] = pixels.data[i + 1] - 50; // GREEN
-    pixels.data[i + 2] = pixels.data[i + 2] * 0.5; // BLUE
+    pixels.data[i + 2] = pixels.data[i + 2] ` 0.5; // BLUE
   }
   return pixels;
 }
 ```
-The ***redEffect()*** method increases the red channels of pixels by 100. It decreases the green channels of pixels by 50. It reduces the blue channels of pixels to half.
+The `redEffect()` method increases the red channels of pixels by 100. It decreases the green channels of pixels by 50. It reduces the blue channels of pixels to half.
 
 <br/>
 
@@ -126,7 +126,7 @@ function rgbSplit(pixels) {
   return pixels;
 }
 ```
-The ***rgbSplit()*** method assigns the red channel of each pixel to the 20th\(100/4\) red channel\(i % 4 === 0 && 100 % 4 === 0\) after it.
+The `rgbSplit()` method assigns the red channel of each pixel to the 20th\(100/4\) red channel\(i % 4 === 0 && 100 % 4 === 0\) after it.
 
 <br/>
 
@@ -159,7 +159,7 @@ function greenScreen(pixels) {
   return pixels;
 }
 ```
-The ***greenScreen()*** method filters pixels outside the values of max and min inputs of colors.
+The `greenScreen()` method filters pixels outside the values of max and min inputs of colors.
 
 <br/>
 
@@ -186,15 +186,15 @@ function paintToCanvas() {
   }, 16);
 }
 ```
-The ***CanvasRenderingContext2D.drawImage()*** method draws the specified image. This method is available in multiple formats, providing a great deal of flexibility in its use.
+The `CanvasRenderingContext2D.drawImage()` method draws the specified image. This method is available in multiple formats, providing a great deal of flexibility in its use.
 
-The ***CanvasRenderingContext2D.getImageData()*** method returns an ImageData object representing the underlying pixel data for the area of the canvas denoted by the rectangle which starts at (sx, sy) and has an sw width and sh height.
+The `CanvasRenderingContext2D.getImageData()` method returns an ImageData object representing the underlying pixel data for the area of the canvas denoted by the rectangle which starts at (sx, sy) and has an sw width and sh height.
  
-The ***CanvasRenderingContext2D.globalAlpha*** property alpha value that is applied to shapes and images before they are composited onto the canvas. Default 1.0 (opaque).
+The `CanvasRenderingContext2D.globalAlpha` property alpha value that is applied to shapes and images before they are composited onto the canvas. Default 1.0 (opaque).
 
-The ***CanvasRenderingContext2D.putImageData()*** method paints data from the given ImageData object onto the bitmap. If a dirty rectangle is provided, only the pixels from that rectangle are painted.
+The `CanvasRenderingContext2D.putImageData()` method paints data from the given ImageData object onto the bitmap. If a dirty rectangle is provided, only the pixels from that rectangle are painted.
 
-The ***paintToCanvas()*** method adds the image taken from the webcam to the canvas with the effect every 16 milliseconds.
+The `paintToCanvas()` method adds the image taken from the webcam to the canvas with the effect every 16 milliseconds.
 
 <br/>
 
@@ -213,28 +213,28 @@ function takePhoto() {
   strip.insertBefore(link, strip.firstChild);
 }
 ```
-The ***HTMLCanvasElement.toDataURL()*** method returns a data-URL containing a representation of the image in the format specified by the type parameter (defaults to png). The returned image is in a resolution of 96 dpi.
+The `HTMLCanvasElement.toDataURL()` method returns a data-URL containing a representation of the image in the format specified by the type parameter (defaults to png). The returned image is in a resolution of 96 dpi.
 
-The ***takePhoto()*** method plays snap sound. Then it adds the snapshot on the canvas to the beginning of the strip. The snapshot is downloadable.
+The `takePhoto()` method plays snap sound. Then it adds the snapshot on the canvas to the beginning of the strip. The snapshot is downloadable.
 
 <br/>
 
 ```js
 video.addEventListener("canplay", paintToCanvas);
 ```
-The ***canplay*** event is fired when the user agent can play the media, but estimates that not enough data has been loaded to play the media up to its end without having to stop for further buffering of content.
+The `canplay` event is fired when the user agent can play the media, but estimates that not enough data has been loaded to play the media up to its end without having to stop for further buffering of content.
 
 
 ## What I have learned?
 
-- I have learned to use the *CanvasRenderingContext2D* interface.
-- I have learned to take stream from webcam with *navigator.mediaDevices.getUserMedia*.
-- I have learned to pass a stream to video element with *video.srcObject*.
-- I have learned to manipulation a video with *CanvasRenderingContext2D* in JavaScript.
-- I have learned to take snapshot from canvas with the *canvas.toDataURL()* method.
-- I have learned the the *download* attribute of \<a\> tag. 
-- I have learned the *Node.insertBefore()* method. 
-- I have learned the *canplay* event.
+- I have learned to use the `CanvasRenderingContext2D` interface.
+- I have learned to take stream from webcam with `navigator.mediaDevices.getUserMedia`.
+- I have learned to pass a stream to video element with `video.srcObject`.
+- I have learned to manipulation a video with `CanvasRenderingContext2D` in JavaScript.
+- I have learned to take snapshot from canvas with the `canvas.toDataURL()` method.
+- I have learned the the `download` attribute of \<a\> tag. 
+- I have learned the `Node.insertBefore()` method. 
+- I have learned the `canplay` event.
 
 
 ## Notes

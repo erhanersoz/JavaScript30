@@ -60,7 +60,7 @@ Defination
 ```js
 triggers.forEach(a => a.addEventListener("mouseenter", highlightLink));
 ```
-The ***HighlightLink*** is triggered when the user hovers over the links.
+The `HighlightLink` is triggered when the user hovers over the links.
 
 <br/>
 
@@ -80,7 +80,7 @@ function highlightLink() {
   highlight.style.display = "block";
 }
 ```
-The ***highlightLink()*** method gets the width, height and coordinates of the link. Then it updates width, height and coordinates of the highlight.
+The `highlightLink()` method gets the width, height and coordinates of the link. Then it updates width, height and coordinates of the highlight.
 
 
 ## What I have learned?

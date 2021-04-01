@@ -24,7 +24,7 @@ let bool2 = bool1;
 bool1 = false;
 console.log(bool1,bool2); // false true
 ```
-Javascript has 5 data types that are passed by value: Boolean, null, undefined, String, and Number. We’ll call these primitive types.
+> Javascript has 5 data types that are passed by value: Boolean, null, undefined, String, and Number. We’ll call these primitive types.
 
 
 ```js
@@ -41,7 +41,7 @@ const captain = person;
 captain.number = 99;
 console.log(person, captain); // {name: "Wes Bos", age: 80, number: 99} {name: "Wes Bos", age: 80, number: 99}
 ```
-Javascript has 3 data types that are passed by reference: Array, Function, and Object.
+> Javascript has 3 data types that are passed by reference: Array, Function, and Object.
 
 
 ### How to Copy an Array in JavaScript?
@@ -132,7 +132,7 @@ console.log(dev2.social.twitter); // @Lux
 
 ## What I have learned?
 
-- I have learned ***Object.assign\(\)*** method and deep copying
+- I have learned `Object.assign\(\)` method and deep copying
 
 ## Notes
 - [JavaScript data types and data structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)

@@ -21,7 +21,7 @@ function makeGreen() {
   p.style.fontSize = '50px';
 }
 ```
-makeGreen changes styles of p element.
+The `makeGreen` method changes styles of p element.
 
 ```js
 console.log("the lesson is %s.", "math");
@@ -48,7 +48,7 @@ console.info("Crocodiles eat 3-4 people per year"); // Info
 ```js
 console.assert(p.classList.contains("ouch"),"That is wrong!"); 
 ```
-The console.assert() method writes an error message to the console if the assertion is false. If the assertion is true, nothing happens.
+The `console.assert()` method writes an error message to the console if the assertion is false. If the assertion is true, nothing happens.
 
 ```js
 console.log(p);
@@ -58,7 +58,7 @@ console.log(p);
 ```js
 console.dir(p);
 ```
-The Console method dir() displays an interactive list of the properties of the specified JavaScript object.
+The `console.dir()` method displays an interactive list of the properties of the specified JavaScript object.
 
 ```js
 dogs.forEach(dog => {
@@ -112,7 +112,7 @@ console.table(dogs);
 
 ## What I have learned?
 
-- I have learned to use the console methods.
+- I have learned to use the `console` methods.
 
 ## Notes
 

@@ -57,9 +57,9 @@ function updateButton(){
 }
 
 ```
-The togglePlayPause method plays and stops the video when the video or icon is clicked.
+The `togglePlayPause` method plays and stops the video when the video or icon is clicked.
 
-The updateButton method changes the play-pause status icon.
+The `updateButton` method changes the play-pause status icon.
 
 
 ```js
@@ -70,7 +70,7 @@ function updateProgressBar(){
   progressBar.style.flexBasis = `${percent}%`;
 }
 ```
-The updateProgressBar method updates the progress bar of the video when the video's time changes.
+The `updateProgressBar` method updates the progress bar of the video when the video's time changes.
 
 
 ```js
@@ -80,7 +80,7 @@ function skip(){
   video.currentTime += parseFloat(this.dataset.skip);
 }
 ```
-The skip method skips the video as much as value of buttons clicked.
+The `skip` method skips the video as much as value of buttons clicked.
 
 
 ```js
@@ -93,7 +93,7 @@ function handleRangeUpdate(){
   video[this.name] = this.value;
 }
 ```
-The handleRangeUpdate method updates volume and playbackRate values of the video.
+The `handleRangeUpdate` method updates `volume` and `playbackRate` values of the video.
 
 
 ```js
@@ -108,7 +108,7 @@ function scrub(e){
   video.currentTime = scrubTime;
 }
 ```
-The scrub method updates video.currentTime according width of the progress bar when the progress bar clicked and dragged.
+The `scrub` method updates `video.currentTime` according width of the progress bar when the progress bar clicked and dragged.
 
 
 ## What I have learned?

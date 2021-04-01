@@ -46,7 +46,7 @@ JS
 ```js
   const inputs = document.querySelectorAll(".controls input");
 ```
-inputs is a static NodeList;
+`inputs` is a static NodeList;
 
 ```js
 function handleUpdate(){
@@ -54,18 +54,18 @@ function handleUpdate(){
   document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
 }
 ```
-handleUpdate updates value of property : style.setProperty(propertyName, value)
+`handleUpdate` updates value of property : `style.setProperty(propertyName, value)`
 
 ```js
   inputs.forEach(input => input.addEventListener("change",handleUpdate));
   inputs.forEach(input => input.addEventListener("mousemove",handleUpdate));
 ```
-handleUpdate will be triggered when there is a change in inputs.
+`handleUpdate` will be triggered when there is a change in `inputs`.
 
 
 ## What I have learned?
 
-- I have learned setProperty function
+- I have learned `setProperty` function.
 
 ## Notes
 

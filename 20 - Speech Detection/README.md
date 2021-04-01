@@ -57,9 +57,9 @@ Fired when the speech recognition service returns a result — a word or phrase 
 
 `transcript` is the detected speech. 
 
-If the transcript includes poop, poop, shit, or dump, it returns 💩 instead.
+If the `transcript` includes poop, poop, shit, or dump, it returns 💩 instead.
 
-If the transcript includes get the weather, it logs "Getting the weather" to console.
+If the trans`transcript`cript includes get the weather, it logs "Getting the weather" to console.
 
 if the speaking is over adds the `p` to the `words`.
 
@@ -70,9 +70,9 @@ recognition.addEventListener("end", recognition.start);
 
 recognition.start();
 ```
-The ***recognition.start()*** method fires when the speech recognition service has disconnected.
+The `recognition.start()` method fires when the speech recognition service has disconnected.
 
-The ***recognition.start()*** method starts the speech recognition service listening to incoming audio with intent to recognize grammars associated with the current `SpeechRecognition`.
+The `recognition.start()` method starts the speech recognition service listening to incoming audio with intent to recognize grammars associated with the current `SpeechRecognition`.
 
 
 ## What I have learned?

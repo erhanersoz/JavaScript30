@@ -78,7 +78,7 @@ function handleMove(e) {
 }
 ```
 
-The `handleMove` method calculates speed. Then it sets bar style and video playbackRate.
+The `handleMove` method calculates speed. Then it sets `bar style` and `video playbackRate`.
 
 <br/>
 

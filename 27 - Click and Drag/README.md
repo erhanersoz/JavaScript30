@@ -114,7 +114,7 @@ slider.addEventListener("mouseleave", passive);
 slider.addEventListener("mouseup", passive);
 ```
 
-The `passive` method will be triggered when mouse leave or up on slider.
+The `passive` method will be triggered when mouse leave or up on `slider`.
 
 <br/>
 
@@ -126,7 +126,7 @@ slider.addEventListener("mousedown", (e) => {
   scrollLeft = slider.scrollLeft;
 });
 ```
-This event prepares the slider to slide.
+This event prepares the `slider` to slide.
 
 <br/>
 

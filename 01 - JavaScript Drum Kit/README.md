@@ -54,7 +54,7 @@ JS
   window.addEventListener('keydown', playSound);
 ```
 
-playSound will be triggered when a key is pressed.
+`playSound` will be triggered when a key is pressed.
 
 ```js
 function playSound(e) {
@@ -66,7 +66,7 @@ function playSound(e) {
 }
 ```
 
-Audio element and key element are select by e.keyCode (code of the key pressed)
+Audio element and key element are select by e.keyCode (code of the key pressed).
 
 :loud_sound: Audio plays.
 
@@ -75,7 +75,7 @@ Key animates.
 ## What I have learned?
 
 - I have learned to play audio.
-- I have learned transitionend event. But I haven't used it.
+- I have learned `transitionend` event. But I haven't used it.
 
 ## Notes
 

@@ -33,7 +33,7 @@ JS
 ```js
   setInterval(updateClock, 1000);
 ```
-updateClock will run every 1000 milliseconds.
+`updateClock` will run every 1000 milliseconds.
 
 ```js
 function updateClock() {
@@ -63,7 +63,7 @@ Similar process are applied to the minute hand and the hour hand.
 
 ## What I have learned?
 
-- I have learned transition-timing-function property.
+- I have learned `transition-timing-function` property.
 
 ## Notes
 

@@ -78,7 +78,7 @@ function debounce(func, wait = 20, immediate = true) {
   };
 }
 ```
-The ***debounce*** method runs the ***checkSlide*** method every 20 miliseconds while scrolling.
+The `debounce` method runs the `checkSlide` method every 20 miliseconds while scrolling.
  
 
 ```js
@@ -97,12 +97,12 @@ function checkSlide(){
   });
 }
 ```
-if half the images are shown The ***checkSlide*** method make the images slide in and fade in.
+if half the images are shown The `checkSlide` method make the images slide in and fade in.
 
 
 ## What I have learned?
 
-- I have learned how The ***debounce*** method works.
+- I have learned how The `debounce` method works.
 
 ## Notes
 

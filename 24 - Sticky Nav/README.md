@@ -147,4 +147,4 @@ function fixNav() {
 
 window.addEventListener("scroll", fixNav);
 ```
-The ***fixNav()*** method is fired when page has been scrolled.
+The `fixNav()` method is fired when page has been scrolled.

@@ -37,7 +37,6 @@ canvas.addEventListener("mousedown", e => {
 });
 canvas.addEventListener("mouseup", () => isDrawing = false);
 canvas.addEventListener("mouseout", () => isDrawing = false);
-}
 ```
 Events
 
@@ -63,7 +62,7 @@ function draw(e){
 
 ## What I have learned?
 
-- I have learned to use the CanvasRenderingContext2D interface
+- I have learned to use the `CanvasRenderingContext2D` interface.
 
 ## Notes
 

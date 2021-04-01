@@ -60,7 +60,7 @@ speechSynthesis.addEventListener("voiceschanged", populateVoices);
 ```
 The `SpeechSynthesis.getVoices()` method of the `SpeechSynthesis` interface returns a list of `SpeechSynthesisVoice` objects representing all the available voices on the current device.
 
-The ***populateVoices()*** method is fired when the list of SpeechSynthesisVoice objects that would be returned by the SpeechSynthesis.getVoices() method has changed. Then the method get all the available voices on the current device and adds it to the `voices` element if the language of the voice is English.
+The `populateVoices()` method is fired when the list of SpeechSynthesisVoice objects that would be returned by the SpeechSynthesis.getVoices() method has changed. Then the method get all the available voices on the current device and adds it to the `voices` element if the language of the voice is English.
 
 <br/>
 
@@ -72,7 +72,7 @@ function setVoice() {
 
 voicesDropdown.addEventListener("change", setVoice);
 ```
-The ***setVoice()*** method changes the speech voice.
+The `setVoice()` method changes the speech voice.
 
 <br/>
 
@@ -87,7 +87,7 @@ function toggle(startOver = true) {
 speakButton.addEventListener("click", toggle);
 stopButton.addEventListener("click", () => toggle(false));
 ```
-The ***toggle()*** method stops and plays the voice.
+The `toggle()` method stops and plays the voice.
 
 <br/>
 
@@ -99,7 +99,7 @@ function setOption() {
 
 options.forEach(option => option.addEventListener("change", setOption));
 ```
-The ***setOption()*** method sets the speed and pitch at which the utterance will be spoken at.
+The `setOption()` method sets the `speed` and `pitch` at which the utterance will be spoken at.
 
 
 ## What I have learned?

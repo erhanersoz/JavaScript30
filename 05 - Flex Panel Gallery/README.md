@@ -25,7 +25,7 @@ JS
 ```js
 const panels = document.querySelectorAll(".panel");
 ```
-panels is a NodeList;
+`panels` is a NodeList;
 
 ```js
 function toggleOpen(){
@@ -41,24 +41,24 @@ function toggleActive(e){
   }
 }
 ```
-if event propertyName includes flex and if classList of element includes open-active,  the toggleActive method removes the open-active class. Otherwise the toggleActive method adds the open-active class.
+if event propertyName includes flex and if classList of element includes open-active,  the `toggleActive` method removes the open-active class. Otherwise the `toggleActive` method adds the open-active class.
 
 ```js
 panels.forEach(panel => panel.addEventListener("click", toggleOpen));
 }
 ```
-toggleOpen will be triggered when a panel is clicked. 
+`toggleOpen` will be triggered when a panel is clicked. 
 
 ```js
 panels.forEach(panel => panel.addEventListener("transitionend",toggleActive));
 }
 ```
-toggleActive will be triggered when transition of panel is end. 
+`toggleActive` will be triggered when transition of panel is end. 
 
 ## What I have learned?
 
-- I have learned classList.toggle()
-- I have learned transitionend event.
+- I have learned `classList.toggle()`.
+- I have learned `transitionend` event.
 
 ## Notes
 

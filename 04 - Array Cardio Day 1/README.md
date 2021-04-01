@@ -30,7 +30,7 @@ console.log(totalYearsLived);
 
 ## What I have learned?
 
-- I have learned Array.prototype.sort(), Array.prototype.reduce() and console.table() methods.
+- I have learned `Array.prototype.sort()`, `Array.prototype.reduce()` and `console.table()` methods.
 
 ## Notes
 

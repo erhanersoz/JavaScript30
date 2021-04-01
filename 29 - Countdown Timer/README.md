@@ -88,7 +88,7 @@ function timer(seconds) {
 }
 ```
 
-The `timer` method sets end time and displays it. Then it updates secondsLeft each 1 second and runs displayTimeLeft(secondsLeft).
+The `timer` method sets end time and displays it. Then it updates `secondsLeft` each 1 second and runs `displayTimeLeft(secondsLeft)`.
 
 <br/>
 
@@ -99,7 +99,7 @@ function startTimer() {
 }
 ```
 
-The `startTimer` method gets dataset.time of element and passes it to `timer` method.
+The `startTimer` method gets `dataset.time` of element and passes it to `timer` method.
 
 <br/>
 

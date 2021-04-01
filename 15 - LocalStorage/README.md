@@ -55,7 +55,7 @@ Defination
 ```js
 let items = JSON.parse(localStorage.getItem('items')) || [];
 ```
-***items*** is items from local storage
+`items` is items from local storage.
 
 ```js
 function populateList(plates =[], platesList){
@@ -69,7 +69,7 @@ function populateList(plates =[], platesList){
   }).join("");
 }
 ```
-The ***populateList*** method adds the ***plates*** to the ***platesList***.
+The `populateList` method adds the `plates` to the `platesList`.
 
 ```js
 function addItem(e){
@@ -86,7 +86,7 @@ function addItem(e){
 }
 addItems.addEventListener("submit", addItem);
 ```
-When the form is submitted, the ***addItem*** method adds the input value to the local storage.
+When the form is submitted, the `addItem` method adds the input value to the local storage.
  
 
 ```js
@@ -99,7 +99,7 @@ function toggleDone(e){
 }
 itemsList.addEventListener("click", toggleDone);
 ```
-When a checkbox is clicked, the ***toggleDone*** method changes state of the checkbox on ui and the local storage.
+When a checkbox is clicked, the `toggleDone` method changes state of the checkbox on ui and the local storage.
 
 
 ```js
@@ -138,7 +138,7 @@ When this event is triggered, it deletes all the checkboxes.
 
 ## What I have learned?
 
-- I have learned the ***preventDefault*** and ***reset*** methods.
+- I have learned the `preventDefault` and `reset` methods.
 
 ## Notes
 

@@ -36,7 +36,7 @@ fetch(endpoint)
 .then(blob => blob.json())
 .then(data => cities.push(...data));
 ```
-this adds the cities to the cities array.
+First, the cities are added to the `cities` array.
 
 ```js
 function findMatches(wordToMatch, cities){
@@ -44,14 +44,14 @@ function findMatches(wordToMatch, cities){
   return cities.filter(item => item.city.match(regex) || item.state.match(regex));
 }
 ```
-findMatches returns filtered cities by the search word. 
+`findMatches` returns filtered cities by the search word. 
 
 ```js
 function numberWithCommas(x){
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 ```
-numberWithCommas returns a string that each three digits of the number separated by ','.
+`numberWithCommas` returns a string that each three digits of the number separated by ','.
 
 ```js
 function displayMatches(){
@@ -74,18 +74,18 @@ function displayMatches(){
   suggestions.innerHTML = html;
 }
 ```
-displayMatches filters the cities based on the searched word and highlights the searched word.
+`displayMatches` filters the cities based on the searched word and highlights the searched word.
 
 ```js
 searchInput.addEventListener("change", displayMatches);
 searchInput.addEventListener("keyup", displayMatches);
 ```
-displayMatches will be triggered when searchInput changes.
+`displayMatches` will be triggered when searchInput changes.
 
 
 ## What I have learned?
 
-- I have learned to use replace method with RegExp
+- I have learned to use `String.prototype.replace()` method with `RegExp`.
 
 ## Notes
 

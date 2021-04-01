@@ -26,12 +26,12 @@ const people = [
 ```js
 const isAdult = people.some(person => (((new Date()).getFullYear()) - person.year >= 19));
 ```
-isAdult is true because some people are bigger than 18.
+`isAdult` is true because some people are bigger than 18.
 
 ```js
 const allAdults = people.every(person => (((new Date()).getFullYear()) - person.year >= 19));
 ```
-allAdults is false because all people are not bigger than 18.
+`allAdults` is false because all people are not bigger than 18.
 
 ```js
 const comments = [
@@ -46,12 +46,12 @@ const comments = [
 ```js
 const comment = comments.find(comment => (comment.id === 823423));
 ```
-The comment is `{ text: 'Super good', id: 823423 }`
+The comment is `{ text: 'Super good', id: 823423 }`.
 
 ```js
 const index = comments.findIndex(comment => (comment.id === 823423));
 ```
-The index is `1`
+The index is `1`.
 
 ```js
 const newComments = [
@@ -59,7 +59,7 @@ const newComments = [
   ...comments.slice(index+1)
 ];
 ```
-The newComments = `[
+The newComments is `[
   { text: 'Love this!', id: 523423 },
   { text: 'You are the best', id: 2039842 },
   { text: 'Ramen is my fav food ever', id: 123523 },
@@ -68,7 +68,7 @@ The newComments = `[
 
 ## What I have learned?
 
-- I have learned Array.prototype.slice() method.
+- I have learned `Array.prototype.slice()` method.
 
 ## Notes
 
