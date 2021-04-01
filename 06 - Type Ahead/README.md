@@ -83,7 +83,7 @@ searchInput.addEventListener("keyup", displayMatches);
 displayMatches will be triggered when searchInput changes.
 
 
-## What i have learned?
+## What I have learned?
 
 - I have learned to use replace method with RegExp
 

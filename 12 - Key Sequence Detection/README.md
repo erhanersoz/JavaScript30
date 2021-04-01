@@ -33,7 +33,7 @@ if the ***pressed*** includes the secretCode ***cornify_add()*** runs.
 
 
 
-## What i have learned?
+## What I have learned?
 
 - I have learned cornify_add\(\) :)
 

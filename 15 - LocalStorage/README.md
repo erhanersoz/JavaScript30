@@ -136,7 +136,7 @@ deleteAll.addEventListener("click", () => {
 When this event is triggered, it deletes all the checkboxes.
  
 
-## What i have learned?
+## What I have learned?
 
 - I have learned the ***preventDefault*** and ***reset*** methods.
 

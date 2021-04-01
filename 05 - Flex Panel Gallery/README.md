@@ -55,7 +55,7 @@ panels.forEach(panel => panel.addEventListener("transitionend",toggleActive));
 ```
 toggleActive will be triggered when transition of panel is end. 
 
-## What i have learned?
+## What I have learned?
 
 - I have learned classList.toggle()
 - I have learned transitionend event.

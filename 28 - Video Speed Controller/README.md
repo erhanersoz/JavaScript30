@@ -82,7 +82,7 @@ The `handleMove` method calculates speed. Then it sets bar style and video playb
 
 <br/>
 
-## What i have learned?
+## What I have learned?
 
 - I have learned the `MouseEvent.pageY`property. I already made [custom video player](https://github.com/erhanersoz/JavaScript30/tree/master/11%20-%20Custom%20Video%20Player)
 

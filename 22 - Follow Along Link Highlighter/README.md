@@ -83,7 +83,7 @@ function highlightLink() {
 The ***highlightLink()*** method gets the width, height and coordinates of the link. Then it updates width, height and coordinates of the highlight.
 
 
-## What i have learned?
+## What I have learned?
 
 - I have learned to use the `Element.getBoundingClientRect()` method.
 

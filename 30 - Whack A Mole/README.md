@@ -202,7 +202,7 @@ Hammer animation
 
 <br/>
 
-## What i have learned?
+## What I have learned?
 
 - I have learned the `Event.isTrusted` property.
 

@@ -63,7 +63,7 @@ The ***logText()*** method writes only the class name of the clicked top div bec
 It writes a "Click!!!" only once, regardless of the number of clicks.
 
 
-## What i have learned?
+## What I have learned?
 
 - I have learned to use the `Event.stopPropagation()` method.
 - I have learned to use `capture` and `once` options.

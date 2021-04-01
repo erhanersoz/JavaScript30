@@ -130,7 +130,7 @@ console.log(wes2.social.twitter); // @wesbos
 console.log(dev2.social.twitter); // @Lux
 ```
 
-## What i have learned?
+## What I have learned?
 
 - I have learned ***Object.assign\(\)*** method and deep copying
 

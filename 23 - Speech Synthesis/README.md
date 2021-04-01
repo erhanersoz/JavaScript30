@@ -102,7 +102,7 @@ options.forEach(option => option.addEventListener("change", setOption));
 The ***setOption()*** method sets the speed and pitch at which the utterance will be spoken at.
 
 
-## What i have learned?
+## What I have learned?
 
 - I have learned to use the `SpeechSynthesisUtterance` interface.
 - I have learned to get all the available voices on the current device with the `SpeechSynthesis.getVoices()` method.

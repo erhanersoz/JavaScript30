@@ -124,7 +124,7 @@ The listener of the event gets value of minutes element and passes it to `timer`
 
 <br/>
 
-## What i have learned?
+## What I have learned?
 
 - I have learned the `WindowOrWorkerGlobalScope.clearInterval()`method.
 

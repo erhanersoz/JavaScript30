@@ -75,7 +75,7 @@ Key animates.
 ## What I have learned?
 
 - I have learned to play audio.
-- I have learned transitionend event. But i haven't used it.
+- I have learned transitionend event. But I haven't used it.
 
 ## Notes
 

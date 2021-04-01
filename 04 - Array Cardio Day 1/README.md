@@ -28,7 +28,7 @@ const totalYearsLived = inventors.reduce((currValue, {passed, year}) => (currVal
 console.log(totalYearsLived);
 ```
 
-## What i have learned?
+## What I have learned?
 
 - I have learned Array.prototype.sort(), Array.prototype.reduce() and console.table() methods.
 

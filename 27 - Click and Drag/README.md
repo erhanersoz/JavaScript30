@@ -143,6 +143,6 @@ When the mouse moves, slide slides.
 
 <br/>
 
-## What i have learned?
+## What I have learned?
 
 - I have learned how to make a custom slider.

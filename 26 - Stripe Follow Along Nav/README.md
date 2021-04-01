@@ -205,7 +205,7 @@ The `handleLeave` method makes invisible the nav element.
 
 <br/>
 
-## What i have learned?
+## What I have learned?
 
 - I have learned to use the `Element.getBoundingClientRect()` method.
 

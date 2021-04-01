@@ -110,7 +110,7 @@ console.table(dogs);
 | 1 | "hugo" | 8 |
 
 
-## What i have learned?
+## What I have learned?
 
 - I have learned to use the console methods.
 

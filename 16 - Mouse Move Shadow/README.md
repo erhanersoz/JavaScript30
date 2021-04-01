@@ -72,7 +72,7 @@ function shadow(e){
 The ***shadow*** method adds a shadow based on the mouse position.
 
 
-## What i have learned?
+## What I have learned?
 
 - I have learned the ***contenteditable*** attribute.
 

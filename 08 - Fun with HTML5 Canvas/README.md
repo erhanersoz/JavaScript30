@@ -61,7 +61,7 @@ function draw(e){
 }
 ```
 
-## What i have learned?
+## What I have learned?
 
 - I have learned to use the CanvasRenderingContext2D interface
 

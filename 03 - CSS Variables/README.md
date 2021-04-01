@@ -63,7 +63,7 @@ handleUpdate updates value of property : style.setProperty(propertyName, value)
 handleUpdate will be triggered when there is a change in inputs.
 
 
-## What i have learned?
+## What I have learned?
 
 - I have learned setProperty function
 

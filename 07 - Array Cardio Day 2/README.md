@@ -66,7 +66,7 @@ The newComments = `[
   { text: 'Nice Nice Nice!', id: 542328 }
 ]`
 
-## What i have learned?
+## What I have learned?
 
 - I have learned Array.prototype.slice() method.
 

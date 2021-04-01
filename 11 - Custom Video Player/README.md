@@ -111,7 +111,7 @@ function scrub(e){
 The scrub method updates video.currentTime according width of the progress bar when the progress bar clicked and dragged.
 
 
-## What i have learned?
+## What I have learned?
 
 - I have learned to manage video.
 

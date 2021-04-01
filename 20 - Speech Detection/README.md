@@ -75,7 +75,7 @@ The ***recognition.start()*** method fires when the speech recognition service h
 The ***recognition.start()*** method starts the speech recognition service listening to incoming audio with intent to recognize grammars associated with the current `SpeechRecognition`.
 
 
-## What i have learned?
+## What I have learned?
 
 - I have learned to use the `SpeechRecognition` interface.
 

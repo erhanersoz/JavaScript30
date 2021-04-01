@@ -100,7 +100,7 @@ function checkSlide(){
 if half the images are shown The ***checkSlide*** method make the images slide in and fade in.
 
 
-## What i have learned?
+## What I have learned?
 
 - I have learned how The ***debounce*** method works.
 

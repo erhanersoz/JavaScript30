@@ -61,7 +61,7 @@ Second hand rotates.
 
 Similar process are applied to the minute hand and the hour hand.
 
-## What i have learned?
+## What I have learned?
 
 - I have learned transition-timing-function property.
 
