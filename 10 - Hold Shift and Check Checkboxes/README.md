@@ -63,7 +63,7 @@ function handleCheck(e) {
   lastChecked = this;
 }
 ```
-The handleCheck method
+If the conditions are met, the handleCheck method checked the chechboxes between the last two clicked chechboxes.
 
 ```js
 checkboxes.forEach(checkbox => checkbox.addEventListener("click", handleCheck));
