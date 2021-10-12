@@ -18,7 +18,7 @@
     html {
       font-size: 100px;
     }
-    
+
     body {
       margin: 0;
       font-family: sans-serif;
@@ -65,8 +65,8 @@
 
     navigator.geolocation.watchPosition((data) => {
       console.log(data);
-      speed.textContent = data.coords.speed;
-      arrow.style.transform = `rotate(${data.coords.heading}deg)`;
+      speed.textContent = (data?.coords?.speed || '15').toString();
+      arrow.style.transform = `rotate(${data?.coords?.heading || 45}deg)`;
     }, (err) => {
       console.error(err.message);
     });
