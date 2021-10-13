@@ -1,0 +1,33 @@
+{
+  "name": "javascript30",
+  "version": "1.0.0",
+  "description": "30 Day Vanilla JS Coding Challenge",
+  "source": "src/*.html",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/*.html --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erhanersoz/JavaScript30.git"
+  },
+  "keywords": [
+    "javascript",
+    "exercise",
+    "vanillajs",
+    "challenge",
+    "wesbos"
+  ],
+  "author": "erhanersoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erhanersoz/JavaScript30/issues"
+  },
+  "homepage": "https://github.com/erhanersoz/JavaScript30#readme",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.0.0",
+    "@parcel/transformer-sass": "^2.0.0",
+    "@parcel/transformer-webmanifest": "^2.0.0",
+    "parcel": "^2.0.0"
+  }
+}
