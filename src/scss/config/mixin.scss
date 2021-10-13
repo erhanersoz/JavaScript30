@@ -1,0 +1,12 @@
+@mixin for-phone-only {
+  @media (max-width: $max-width-tablet) { @content; }
+}
+@mixin for-tablet-up {
+  @media (min-width: $max-width-tablet) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: $max-width-desktop) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: $max-width-big-desktop) { @content; }
+}

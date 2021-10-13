@@ -1,0 +1,33 @@
+
+
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+
+body {
+  background-color: beige;
+}
+
+.master {
+  width: 100%;
+  min-height: 100vh;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  @include for-phone-only {
+    padding: 20px;
+  }
+
+  .header {
+
+  }
+
+  .main {
+
+  }
+
+  .footer {
+
+  }
+}
