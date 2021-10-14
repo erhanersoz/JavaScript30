@@ -2,7 +2,7 @@
   "name": "javascript30",
   "version": "1.0.0",
   "description": "30 Day Vanilla JS Coding Challenge",
-  "source": "src/*.html",
+  "source": "src/index.html",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html --no-cache"
