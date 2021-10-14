@@ -10,3 +10,17 @@
 @mixin for-big-desktop-up {
   @media (min-width: $max-width-big-desktop) { @content; }
 }
+
+@mixin thumbnail($number) {
+  .thumbnail-#{$number} {
+    background-image: url("../img/demo_#{$number}.png");
+  }
+}
+
+@mixin card_hover($number) {
+  .card-#{$number}:hover {
+    .thumbnail-#{$number} {
+      background-image: url("../img/demo_#{$number}.gif");
+    }
+  }
+}
