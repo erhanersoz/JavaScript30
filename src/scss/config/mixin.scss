@@ -20,7 +20,7 @@
 @mixin card_hover($number) {
   .card-#{$number}:hover {
     .thumbnail-#{$number} {
-      background-image: url("../img/demo_#{$number}.gif");
+      background-image: url("../img/demo_#{$number}.gif"), url("../img/demo_#{$number}.png");
     }
   }
 }
